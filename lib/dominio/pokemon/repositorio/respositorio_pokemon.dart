@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
 
-abstract class RespositorioPokemon {
+abstract class RepositorioPokemon {
   Future<Either> buscarPokemon();
 }
