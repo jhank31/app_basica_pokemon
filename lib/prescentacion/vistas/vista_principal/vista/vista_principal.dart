@@ -1,3 +1,4 @@
+import 'package:app_basica_pokemon/prescentacion/vistas/vista_principal/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class VistaPrincipal extends StatelessWidget {
@@ -5,6 +6,14 @@ class VistaPrincipal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          'Lista de Pokemons',
+          style: TextStyle(color: Colors.white),
+        ),
+      ),
+      body: const ListaDePokemons(),
+    );
   }
 }
