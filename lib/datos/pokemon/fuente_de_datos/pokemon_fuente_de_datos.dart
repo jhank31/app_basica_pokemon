@@ -6,7 +6,7 @@ abstract class PokemonFuenteDeDatos {
   Future<Either> buscarPokemon();
 }
 
-class ImplementacionPokemonFuenteDeDatos extends PokemonFuenteDeDatos {
+class ImplementacionPokemonFuenteDeDatos implements PokemonFuenteDeDatos {
   final Dio dio = Dio();
   @override
   Future<Either> buscarPokemon() async {

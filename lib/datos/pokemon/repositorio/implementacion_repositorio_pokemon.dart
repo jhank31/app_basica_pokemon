@@ -7,7 +7,7 @@ import 'package:app_basica_pokemon/inyeccion_de_dependencias.dart';
 import 'package:app_basica_pokemon/prescentacion/comun/isolates/pokemon/tarea_aislada.dart';
 import 'package:dartz/dartz.dart';
 
-class ImplementacionRepositorioPokemon extends RepositorioPokemon {
+class ImplementacionRepositorioPokemon implements RepositorioPokemon {
   @override
   Future<Either> buscarPokemon() async {
     Either<dynamic, dynamic> datosARetornar =
