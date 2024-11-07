@@ -1,8 +1,8 @@
-import 'package:app_basica_pokemon/datos/pokemon/fuente_de_datos/pokemon_fuente_de_datos.dart';
-import 'package:app_basica_pokemon/datos/pokemon/repositorio/implementacion_repositorio_pokemon.dart';
-import 'package:app_basica_pokemon/dominio/pokemon/casos_de_uso/obtener_pokemons.dart';
-import 'package:app_basica_pokemon/dominio/pokemon/repositorio/respositorio_pokemon.dart';
-import 'package:app_basica_pokemon/prescentacion/vistas/vista_principal/bloc/bloc_pokemon.dart';
+import 'package:app_basica_pokemon/pokemon/datos/fuente_de_datos/pokemon_fuente_de_datos.dart';
+import 'package:app_basica_pokemon/pokemon/datos/repositorio/implementacion_repositorio_pokemon.dart';
+import 'package:app_basica_pokemon/pokemon/dominio/casos_de_uso/obtener_pokemons.dart';
+import 'package:app_basica_pokemon/pokemon/dominio/repositorio/respositorio_pokemon.dart';
+import 'package:app_basica_pokemon/pokemon/bloc/bloc_pokemon.dart';
 import 'package:get_it/get_it.dart';
 
 GetIt inyeccionDeDependencias = GetIt.instance;

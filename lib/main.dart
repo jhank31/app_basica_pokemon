@@ -1,6 +1,6 @@
 import 'package:app_basica_pokemon/inyeccion_de_dependencias.dart';
-import 'package:app_basica_pokemon/prescentacion/comun/tema/tema_de_la_aplicacion.dart';
-import 'package:app_basica_pokemon/prescentacion/rutas/manejador_de_rutas.dart';
+import 'package:app_basica_pokemon/temas/tema_de_la_aplicacion.dart';
+import 'package:app_basica_pokemon/compartidos/rutas/manejador_de_rutas.dart';
 import 'package:app_basica_pokemon/proveedor_bloc.dart';
 import 'package:flutter/material.dart';
 

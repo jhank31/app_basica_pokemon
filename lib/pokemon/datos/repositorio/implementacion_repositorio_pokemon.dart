@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:isolate';
-import 'package:app_basica_pokemon/datos/pokemon/entidad/entidad_pokemon.dart';
-import 'package:app_basica_pokemon/datos/pokemon/fuente_de_datos/pokemon_fuente_de_datos.dart';
-import 'package:app_basica_pokemon/dominio/pokemon/repositorio/respositorio_pokemon.dart';
+import 'package:app_basica_pokemon/pokemon/datos/entidad/entidad_pokemon.dart';
+import 'package:app_basica_pokemon/pokemon/dominio/repositorio/respositorio_pokemon.dart';
 import 'package:app_basica_pokemon/inyeccion_de_dependencias.dart';
-import 'package:app_basica_pokemon/prescentacion/comun/isolates/pokemon/tarea_aislada.dart';
+import 'package:app_basica_pokemon/comun/isolates/pokemon/tarea_aislada.dart';
+import 'package:app_basica_pokemon/pokemon/datos/fuente_de_datos/pokemon_fuente_de_datos.dart';
 import 'package:dartz/dartz.dart';
 
 class ImplementacionRepositorioPokemon implements RepositorioPokemon {

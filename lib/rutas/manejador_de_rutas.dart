@@ -1,4 +1,4 @@
-import 'package:app_basica_pokemon/prescentacion/vistas/exportar_vistas.dart';
+import 'package:app_basica_pokemon/archivos_barril/vistas/exportar_vistas.dart';
 import 'package:go_router/go_router.dart';
 
 //* usamos GoRouter para manejar las rutas de la aplicación

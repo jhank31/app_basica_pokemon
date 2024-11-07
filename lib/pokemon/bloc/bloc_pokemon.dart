@@ -1,5 +1,6 @@
-import 'package:app_basica_pokemon/datos/pokemon/entidad/entidad_pokemon.dart';
-import 'package:app_basica_pokemon/dominio/pokemon/casos_de_uso/obtener_pokemons.dart';
+
+import 'package:app_basica_pokemon/pokemon/datos/entidad/entidad_pokemon.dart';
+import 'package:app_basica_pokemon/pokemon/dominio/casos_de_uso/obtener_pokemons.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 

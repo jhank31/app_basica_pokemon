@@ -1,4 +1,4 @@
-import 'package:app_basica_pokemon/prescentacion/vistas/vista_principal/bloc/bloc_pokemon.dart';
+import 'package:app_basica_pokemon/pokemon/bloc/bloc_pokemon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

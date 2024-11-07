@@ -1,6 +1,6 @@
 
 
-import 'package:app_basica_pokemon/dominio/pokemon/modelo/modelo_pokemon.dart';
+import 'package:app_basica_pokemon/pokemon/dominio/modelo/modelo_pokemon.dart';
 
 class EntidadPokemon {
   final String nombre;

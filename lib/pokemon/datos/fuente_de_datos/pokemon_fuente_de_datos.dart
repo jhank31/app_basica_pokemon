@@ -1,4 +1,4 @@
-import 'package:app_basica_pokemon/dominio/pokemon/modelo/modelo_pokemon.dart';
+import 'package:app_basica_pokemon/pokemon/dominio/modelo/modelo_pokemon.dart';
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 
@@ -33,4 +33,7 @@ class ImplementacionPokemonFuenteDeDatos implements PokemonFuenteDeDatos {
       return const Left('Error al obtener los pokemons');
     }
   }
+}
+
+class FuenteDeDatosPokemon {
 }

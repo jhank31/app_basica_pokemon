@@ -1,4 +1,4 @@
-import 'package:app_basica_pokemon/prescentacion/vistas/vista_principal/widgets/widgets.dart';
+import 'package:app_basica_pokemon/pokemon/vista/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class VistaPrincipal extends StatelessWidget {

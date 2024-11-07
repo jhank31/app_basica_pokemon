@@ -1,0 +1,1 @@
+export '../../pokemon/vista/vista_principal.dart';
